@@ -1,9 +1,4 @@
 const CHANNELS = [{
-    "id": "alvinchannel",
-    "hls_url": "https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8",
-    "media_type": "video",
-    "name": "Alvin Channel"
-}, {
     "id": "apatv",
     "hls_url": "http://rtmp.apa.tv/@pagroup!23.m3u8",
     "media_type": "video",

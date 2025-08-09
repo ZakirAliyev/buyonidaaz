@@ -1,11 +1,10 @@
-import React from "react";
+import image1 from "/public/assets/buyonidaLogo.png"
 
-export default function Navbar({ theme, onToggleTheme }) {
+export default function Navbar({theme, onToggleTheme}) {
     return (
         <header className="navbar">
             <div className="brand">
-                <span className="logo">🧿</span>
-                <span className="title">Buyonida AZ</span>
+                <img alt={"Logo"} src={image1} className="title"/>
             </div>
             <div className="actions">
                 <button onClick={onToggleTheme} className="btn ghost">

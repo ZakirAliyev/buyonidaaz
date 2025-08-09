@@ -1,13 +1,17 @@
 $radius: 12px;
-$shadow: 0 8px 30px rgba(0,0,0,.08);
+$shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 
-$brand: #4f46e5;
-$bg-dark: #0b111b;
-$panel-dark: #0f172a;
-$text-dark: #e5e7eb;
-$muted-dark: #9ca3af;
+/* Tema renkleri */
+$brand: #ffe600; // Parlak sarı (marka rengi)
 
-$bg-light: #f9fafb;
-$panel-light: #ffffff;
-$text-light: #111827;
-$muted-light: #6b7280;
+/* Koyu tema (arka plan mor-siyah) */
+$bg-dark: #0b0b0f;       // Çok koyu mor-siyah
+$panel-dark: #1a0b24;    // Koyu mor panel
+$text-dark: #f6f0ff;     // Açık mor-beyaz yazı
+$muted-dark: #b9a9d9;    // Soluk mor-gri
+
+/* Açık tema (mor ve sarı kontrastlı) */
+$bg-light: #fdf8ff;      // Açık mor-beyaz
+$panel-light: #ffffff;   // Beyaz panel
+$text-light: #1a1a1a;    // Koyu gri metin
+$muted-light: #7b6f91;   // Soluk mor-gri

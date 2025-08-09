@@ -1,13 +1,13 @@
 :root[data-theme='light'] {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-  --navbar-bg: #f2f2f2;
-  --navbar-text: #000000;
+  --bg-color: #f6f0ff;       /* Mor tonlu açık arka plan */
+  --text-color: #1a1a1a;     /* Koyu gri metin */
+  --navbar-bg: #ffe600;      /* Parlak sarı (tema ile uyumlu) */
+  --navbar-text: #1a1a1a;    /* Siyah tonlu yazı */
 }
 
 :root[data-theme='dark'] {
-  --bg-color: #111111;
-  --text-color: #eeeeee;
-  --navbar-bg: #222222;
-  --navbar-text: #ffffff;
+  --bg-color: #0b0b0f;       /* Çok koyu mor-siyah */
+  --text-color: #f5f0ff;     /* Açık mor-beyaz metin */
+  --navbar-bg: #3c005a;      /* Koyu mor navbar */
+  --navbar-text: #ffe600;    /* Sarı metin */
 }
